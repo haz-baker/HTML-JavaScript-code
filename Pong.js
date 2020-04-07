@@ -170,6 +170,7 @@ function game(){
 // the frame rate
 const FramePerSecond = 50;
 
+
 //starts game and sets FPS
 function start(){
   setInterval(game, 1000/FramePerSecond);
