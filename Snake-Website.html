@@ -30,18 +30,8 @@
     <body>
         <h1> Snake game </h1>
 
-        <canvas id="pong" width="600" height="400"></canvas>
-        <button id = "button" class="button button1" onclick="start(); myFunction()" style="float: centre;">Press here to Start</button>
-        <script src="Snake.js">
-        function myFunction() {
-            var x = document.getElementById("button");
-            if (x.style.display === "none") {
-                x.style.display = "block";
-            } else {
-                x.style.display = "none";
-            }
-        }
-        </script>
+        <canvas id="snake" width="608" height="608"></canvas>
+        <script src="Snake.js"></script>
         
 
     </body>
